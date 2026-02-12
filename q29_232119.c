@@ -1,0 +1,18 @@
+#include <cs50.h>
+#include <stdio.h>
+
+int main(void)
+{
+    int a, b;
+    scanf("%d %d", &a, &b);
+
+    if (a > b)
+        printf("Largest = %d\n", a);
+    else if (b > a)
+        printf("Largest = %d\n", b);
+    else
+        printf("Both are Equal\n");
+
+    return 0;
+}
+
